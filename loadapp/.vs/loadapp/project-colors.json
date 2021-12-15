@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eef18490-fb3e-49c8-a1d4-41378c21c04c": {
+      "ProjectGuid": "eef18490-fb3e-49c8-a1d4-41378c21c04c",
+      "DisplayName": "loadapp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
