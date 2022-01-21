@@ -1,3 +1,9 @@
 is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = MyMp3Player
-build_property.ProjectDir = D:\test_vscode19\MyMp3Player\MyMp3Player\
+build_property.ProjectDir = C:\Users\ACER\Documents\GitHub\OOPTeam7\MyMp3Player\MyMp3Player\

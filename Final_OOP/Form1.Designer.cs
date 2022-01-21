@@ -36,15 +36,17 @@ namespace WindowsFormsApp4
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.userControl31 = new WindowsFormsApp4.UserControl3();
-            this.userControl21 = new WindowsFormsApp4.UserControl2();
             this.userControl11 = new WindowsFormsApp4.UserControl1();
+            this.userControl21 = new WindowsFormsApp4.UserControl2();
+            this.userControl31 = new WindowsFormsApp4.UserControl3();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -52,8 +54,7 @@ namespace WindowsFormsApp4
             this.button1.BackColor = System.Drawing.Color.Brown;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(0, 74);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
@@ -69,8 +70,7 @@ namespace WindowsFormsApp4
             this.button2.BackColor = System.Drawing.Color.Brown;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(0, 128);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
@@ -86,8 +86,7 @@ namespace WindowsFormsApp4
             this.button3.BackColor = System.Drawing.Color.Brown;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(0, 183);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
@@ -102,14 +101,14 @@ namespace WindowsFormsApp4
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Brown;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(320, 20);
+            this.label1.Location = new System.Drawing.Point(307, 24);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 35);
+            this.label1.Size = new System.Drawing.Size(204, 27);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Time Magician";
+            this.label1.Text = "Technical Support";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // listView1
@@ -127,6 +126,7 @@ namespace WindowsFormsApp4
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Brown;
+            this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.userControl31);
             this.panel2.Controls.Add(this.userControl21);
             this.panel2.Controls.Add(this.userControl11);
@@ -135,16 +135,6 @@ namespace WindowsFormsApp4
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(600, 339);
             this.panel2.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsFormsApp4.Properties.Resources.youre_welcome_la_gi_2;
-            this.pictureBox2.Location = new System.Drawing.Point(-3, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(603, 339);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // btnClose
             // 
@@ -159,6 +149,16 @@ namespace WindowsFormsApp4
             this.btnClose.Text = "x";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp4.Properties.Resources.youre_welcome_la_gi_2;
+            this.pictureBox2.Location = new System.Drawing.Point(-3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(603, 339);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp4.Properties.Resources.mau_background_mon_hoc_tap_090703627;
@@ -170,12 +170,12 @@ namespace WindowsFormsApp4
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // userControl31
+            // userControl11
             // 
-            this.userControl31.Location = new System.Drawing.Point(0, 0);
-            this.userControl31.Name = "userControl31";
-            this.userControl31.Size = new System.Drawing.Size(600, 339);
-            this.userControl31.TabIndex = 3;
+            this.userControl11.Location = new System.Drawing.Point(0, 0);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(600, 339);
+            this.userControl11.TabIndex = 1;
             // 
             // userControl21
             // 
@@ -184,12 +184,22 @@ namespace WindowsFormsApp4
             this.userControl21.Size = new System.Drawing.Size(600, 339);
             this.userControl21.TabIndex = 2;
             // 
-            // userControl11
+            // userControl31
             // 
-            this.userControl11.Location = new System.Drawing.Point(-3, 0);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(600, 339);
-            this.userControl11.TabIndex = 1;
+            this.userControl31.Location = new System.Drawing.Point(0, -3);
+            this.userControl31.Name = "userControl31";
+            this.userControl31.Size = new System.Drawing.Size(600, 339);
+            this.userControl31.TabIndex = 3;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::WindowsFormsApp4.Properties.Resources.youre_welcome_la_gi_2;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(600, 339);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -214,6 +224,7 @@ namespace WindowsFormsApp4
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,6 +244,7 @@ namespace WindowsFormsApp4
         private UserControl3 userControl31;
         private UserControl2 userControl21;
         private UserControl1 userControl11;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

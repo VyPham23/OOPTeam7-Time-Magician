@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nmPDMZ029YV3neNkW93RXO/godj+O5YUlH1dqY3MG0upvsxPUrELly9eeFskd9xr/KJezno3RU2MpwyxvP84CQ==",
+  "dgSpecHash": "HMRTuAd2ekr3NAv5QHeTMGPPjbu6Z3mhpUhoNTHSEnzGQXf20Ji0vrtdUw6QrREMh56ISryyyTe88+EDcoTpFg==",
   "success": true,
-  "projectFilePath": "D:\\test_vscode19\\MyMp3Player\\MyMp3Player\\MyMp3Player.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ACER\\Documents\\GitHub\\OOPTeam7\\MyMp3Player\\MyMp3Player\\MyMp3Player.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
