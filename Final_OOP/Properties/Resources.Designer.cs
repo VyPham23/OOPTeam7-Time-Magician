@@ -63,49 +63,9 @@ namespace WindowsFormsApp4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap download {
-            get {
-                object obj = ResourceManager.GetObject("download", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap dusk {
-            get {
-                object obj = ResourceManager.GetObject("dusk", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images {
-            get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap mau_background_mon_hoc_tap_090703627 {
             get {
                 object obj = ResourceManager.GetObject("mau-background-mon-hoc-tap_090703627", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Nono_vous_a_envoyé_une_Épingle__ {
-            get {
-                object obj = ResourceManager.GetObject("Nono vous a envoyé une Épingle !", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,16 +86,6 @@ namespace WindowsFormsApp4.Properties {
         internal static System.Drawing.Bitmap Screenshot_2021_12_25_193319 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2021-12-25 193319", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap youre_welcome_la_gi_2 {
-            get {
-                object obj = ResourceManager.GetObject("youre-welcome-la-gi-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

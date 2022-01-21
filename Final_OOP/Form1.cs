@@ -20,60 +20,34 @@ namespace WindowsFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            //Hide other user controls
-            userControl31.Hide();
-            userControl21.Hide();
-
-            //show current control
-            userControl11.Show();
-            userControl11.BringToFront();
-
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-            //Hide other user controls
-            userControl31.Hide();
-            userControl11.Hide();
-
-            //show current control
-            userControl21.Show();
-            userControl21.BringToFront();
-
+            Form2 a = new Form2();
+            this.Hide();
+            a.ShowDialog();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Form3 c = new Form3();
+            this.Hide();
+            c.ShowDialog();
+        }
 
-            //Hide other user controls
-            userControl11.Hide();
-            userControl21.Hide();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MusicPlayer d = new MusicPlayer();
+            this.Hide();
+            d.ShowDialog();
+        }
 
-            //show current control
-            userControl31.Show();
-            userControl11.BringToFront();
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            userControl11.Hide();
-            userControl21.Hide();
-            userControl31.Hide();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Do you want exit?", "Exit", MessageBoxButtons.YesNo);
-            if (result == System.Windows.Forms.DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
+         
         }
     }
 }
